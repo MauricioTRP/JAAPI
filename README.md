@@ -7,7 +7,7 @@ Things you may want to cover:
 
 # Ruby
 [![Versions Ruby](https://img.shields.io/badge/Ruby-3.3.0-blue)](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-3-0-released/) [![Versions Rails](https://img.shields.io/badge/Rails-7.1.2-blue)](https://rubygems.org/gems/rails/versions/7.1.2) [![Versions Postgresql](https://img.shields.io/badge/PostgreSQL-9.3-blue)](https://www.postgresql.org/about/news/postgresql-93-released-1481/)
-
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
 
 # Scripts
 
@@ -34,17 +34,15 @@ You can skip verification hook using
 git push --no-verify
 ```
 
+# Linter
+This project uses [Rubocop](https://www.rubydoc.info/gems/rubocop) as formatter and linter together with rails and rspec extensions.
 
+## Code formatting fixes
+If you need to do a quick fix of the layout styles you can run
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
+```bash
+rubocop --fix-layout
+```
 
 # RSpec
 We use [RSpec](https://github.com/rspec/rspec-rails) as testing framework.
@@ -76,4 +74,16 @@ $ bundle exec rspec --help
 
 * Deployment instructions
 
-* ...
+
+* System dependencies
+
+* Configuration
+
+# Database creation
+
+This project uses postgresql, in order to create the database you have to:
+
+Run `rails db:create db:migrate` to create the DB with all its tables.
+If you want to use dummy data run `rails db:seed`
+
+* Database initialization

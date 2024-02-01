@@ -45,6 +45,18 @@ group :development, :test do
   # See https://github.com/bkeepers/dotenv
   gem 'dotenv-rails'
 
+  # Rubocop linter and code formatter
+  # See https://docs.rubocop.org/rubocop/1.60/index.html
+  gem 'rubocop', require: false
+
+  # Rubocop extension for Rails
+  # See https://github.com/rubocop/rubocop-rails
+  gem 'rubocop-rails', require: false
+
+  # Rubocop extension for Rails RSpec
+  # See https://github.com/rubocop/rubocop-rspec
+  gem 'rubocop-rspec', require: false
+
   # Testing framework for RoR, use Behaviour driven paragidm
   # See https://github.com/rspec/rspec-rails
   gem 'rspec-rails', '~> 6.1.0'

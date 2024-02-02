@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 echo "\033[40m\033mRunning Rubocop..\033[0m"
 RUN_CHECK_CMD='bundle exec rubocop --format offenses'

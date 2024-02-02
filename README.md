@@ -1,9 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+This API handles voucher system, you will see all endpoing Swagger documentated
 
 # Ruby
 [![Versions Ruby](https://img.shields.io/badge/Ruby-3.3.0-blue)](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-3-0-released/) [![Versions Rails](https://img.shields.io/badge/Rails-7.1.2-blue)](https://rubygems.org/gems/rails/versions/7.1.2) [![Versions Postgresql](https://img.shields.io/badge/PostgreSQL-9.3-blue)](https://www.postgresql.org/about/news/postgresql-93-released-1481/)

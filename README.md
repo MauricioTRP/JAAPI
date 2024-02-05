@@ -34,12 +34,17 @@ git push --no-verify
 # Linter
 This project uses [Rubocop](https://www.rubydoc.info/gems/rubocop) as formatter and linter together with rails and rspec extensions.
 
-## Code formatting fixes
+## Code formatting fixes - quick availables
 If you need to do a quick fix of the layout styles you can run
 
 ```bash
 rubocop --fix-layout
 ```
+
+### Important
+This project has pre-hook a script to run [RSpec](https://github.com/rspec/rspec-rails) and [Rubocop](https://www.rubydoc.info/gems/rubocop) before commit or push any changes.
+
+Hooked to RSpec there's [simplecov](https://github.com/simplecov-ruby/simplecov) to analyse test coverage of the app.
 
 # RSpec
 We use [RSpec](https://github.com/rspec/rspec-rails) as testing framework.

@@ -60,6 +60,7 @@ group :development, :test do
   # Testing framework for RoR, use Behaviour driven paragidm
   # See https://github.com/rspec/rspec-rails
   gem 'rspec-rails', '~> 6.1.0'
+
 end
 
 group :development do
@@ -67,3 +68,6 @@ group :development do
   # gem 'spring'
 end
 
+# Test coverage analysis tool for ruby, using built-in coverage plus an API to filter
+# See https://github.com/simplecov-ruby/simplecov
+gem 'simplecov', require: false, group: :test

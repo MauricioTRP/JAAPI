@@ -22,7 +22,7 @@ attrib +x scripts_files/pre-push
 # in root directory of the project
 chmod +x scripts_files/pre-push.sh
 
-sudo ln -s /scripts_files/pre-push.sh .git/hooks/pre-push.sh
+sudo ln -s ../../scripts_files/pre-push.sh .git/hooks/pre-push.sh
 ```
 
 ### Skip Verify

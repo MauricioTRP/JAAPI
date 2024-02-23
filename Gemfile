@@ -37,6 +37,10 @@ gem 'bootsnap', require: false
 # @see: { https://github.com/cyu/rack-cors }
 gem "rack-cors"
 
+# Rswag extends rspec-rails "request specs" with a Swagger-based DSL for describing and testing API operations.
+# @see: { https://github.com/rswag/rswag }
+gem "rswag"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[ mri windows ]
